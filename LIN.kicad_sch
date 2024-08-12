@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "39b25bd2-4031-426c-8b08-207c79847eca")
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(date "mar. 31 mars 2015")
 	)
@@ -1083,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 110.49 93.98)
+			(xy 102.87 93.98) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 129.54 91.44)
+			(xy 121.92 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1311,9 +1311,31 @@
 		)
 		(uuid "c3591de2-5341-474b-87c4-2d83f9053f65")
 	)
+	(label "RX"
+		(at 125.73 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "114ca7aa-ecee-467d-92e4-b0c4e72a909b")
+	)
+	(label "TX"
+		(at 105.41 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b72275d-400d-44ee-ba47-e97b8f88bcbf")
+	)
 	(hierarchical_label "TXD"
 		(shape input)
-		(at 109.22 93.98 180)
+		(at 102.87 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1325,7 +1347,7 @@
 	)
 	(hierarchical_label "RXD"
 		(shape output)
-		(at 127 91.44 180)
+		(at 121.92 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1414,19 +1436,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0808ae41-5661-41e9-a37a-b7a913ffcdd2")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR068")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
+			(uuid "5845dfaa-8211-42ca-bac5-5d4da2fe51b2")
 		)
 	)
 	(symbol
@@ -1485,22 +1495,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "50e43d50-db33-4a46-8a89-331ede500989")
+			(uuid "812ec769-df24-420a-a983-5f255778907b")
 		)
 		(pin "2"
-			(uuid "7171358e-b484-49d7-88be-aaac51719261")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "C33")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "C5")
-					(unit 1)
-				)
-			)
+			(uuid "721556d1-dbca-4ee1-b9c6-2424c3ccd5a4")
 		)
 	)
 	(symbol
@@ -1559,22 +1557,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4b32b72-fe4b-4a71-96ad-7e394d30eff7")
+			(uuid "89de6101-46e8-4c80-85a2-d0c6a486891a")
 		)
 		(pin "2"
-			(uuid "a268631f-ad3e-48bd-8bba-0ffe844b908d")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "C35")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "C7")
-					(unit 1)
-				)
-			)
+			(uuid "532552e1-1842-47f4-a83b-f1bf985cfbe7")
 		)
 	)
 	(symbol
@@ -1633,22 +1619,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "72227b03-9b0d-40de-9377-af5db9a0ca84")
+			(uuid "4aa415e9-de1b-410d-a06f-00d17e7011e3")
 		)
 		(pin "2"
-			(uuid "2e08227a-a395-4e23-9706-59fb1e1a2e86")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "C6")
-					(unit 1)
-				)
-			)
+			(uuid "43937875-d90d-41ed-a8e1-0355bc1cb840")
 		)
 	)
 	(symbol
@@ -1705,22 +1679,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e74d38ef-95c8-4850-828e-fcf403442d10")
+			(uuid "8c658a8e-e846-4098-8d73-c3848213ced0")
 		)
 		(pin "1"
-			(uuid "f85686d8-5036-4c72-b89d-d7cfbf7555af")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "R10")
-					(unit 1)
-				)
-			)
+			(uuid "a6e84dc8-7a52-4ab1-a0c7-f039a272169f")
 		)
 	)
 	(symbol
@@ -1778,19 +1740,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cffa8af-fa45-402a-b8ce-f03a2aa61306")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR073")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
+			(uuid "2fc2392b-2939-4781-958b-2451dfd20b59")
 		)
 	)
 	(symbol
@@ -1849,22 +1799,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "933c70fe-09f6-436a-b7db-a111d59e1ddd")
+			(uuid "2940384b-28cb-444d-b64b-05cf77197ebc")
 		)
 		(pin "2"
-			(uuid "82c183c1-d924-461e-87e8-05cd6c7eaa64")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "C32")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "C4")
-					(unit 1)
-				)
-			)
+			(uuid "d40b509a-e04b-4567-8963-449f0a6b1d47")
 		)
 	)
 	(symbol
@@ -1923,22 +1861,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "63002ba0-1d0e-4076-ae60-1bcb441122d3")
+			(uuid "2e67ffe2-a173-4e9f-8312-644927f66917")
 		)
 		(pin "2"
-			(uuid "50634923-b5f4-41b5-86db-6ef3894ee093")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "C31")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "C3")
-					(unit 1)
-				)
-			)
+			(uuid "6ee692bd-0fd1-41a9-a8cb-1de5bb231360")
 		)
 	)
 	(symbol
@@ -1996,19 +1922,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "94b6b208-d0e9-4d3d-8a18-bfdaa568e83f")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR071")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
+			(uuid "863e528a-e9c6-4089-a58b-df2e3f7fa763")
 		)
 	)
 	(symbol
@@ -2065,22 +1979,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e428761-81c8-44a1-830f-a6bda46ea1ad")
+			(uuid "c60684b9-28e7-40b0-bd8d-bb8851dbd3cc")
 		)
 		(pin "1"
-			(uuid "65b2d4dd-7662-43b3-a843-6b5a696fa7cc")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "R8")
-					(unit 1)
-				)
-			)
+			(uuid "62933f26-f45a-436d-8dee-9bdd7ede177e")
 		)
 	)
 	(symbol
@@ -2139,22 +2041,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "985135e8-7b5e-4ebc-8cb6-789550b8fab0")
+			(uuid "f7352512-071a-4340-a242-9aa13439d0a3")
 		)
 		(pin "1"
-			(uuid "7fab2c52-34b5-42f7-b271-6d1ba22ab3b8")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "F3")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "F2")
-					(unit 1)
-				)
-			)
+			(uuid "c786a761-7676-488e-a58f-6027ab511199")
 		)
 	)
 	(symbol
@@ -2212,19 +2102,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "afac68ba-124c-4f34-86c7-67a182092b6e")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR074")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
+			(uuid "ceeca25c-3e60-4c75-8c14-1ecd4e9890ce")
 		)
 	)
 	(symbol
@@ -2282,19 +2160,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2c70d52-00a1-4f94-aaef-a9c19ed2d123")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR070")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
+			(uuid "260c4bc4-fd63-4457-a756-f178033f6c80")
 		)
 	)
 	(symbol
@@ -2352,19 +2218,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "13b01d58-94e8-4940-85c5-ce04d20f0ffa")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR069")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
+			(uuid "33b24f77-17c0-4ee9-a79e-23dbe378a21f")
 		)
 	)
 	(symbol
@@ -2422,19 +2276,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa24dab-1f92-4263-9714-755c8b1bdca7")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
+			(uuid "acb1360e-192e-45e7-8b3e-79d1915820e5")
 		)
 	)
 	(symbol
@@ -2493,22 +2335,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8a402c5e-b901-4312-aa60-9f14ac68bc82")
+			(uuid "dbfb5e69-2138-404c-a39f-6833e9cb7859")
 		)
 		(pin "1"
-			(uuid "01a339b1-6714-42fc-bfb9-72b455c60577")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "R9")
-					(unit 1)
-				)
-			)
+			(uuid "3df026ab-0cea-40ea-a803-0e0af178f513")
 		)
 	)
 	(symbol
@@ -2566,19 +2396,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d06951c5-1720-4b79-a18d-06cde2bce16c")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
+			(uuid "3ebd91bd-7fb2-4774-9fbb-14354ecb33a4")
 		)
 	)
 	(symbol
@@ -2635,40 +2453,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "02d54988-924f-4771-8b72-691e304ee7d9")
+			(uuid "0bd24ce6-55a4-4c37-adca-0b1db7f55cdd")
 		)
 		(pin "1"
-			(uuid "96ae9e42-54bd-4924-bf10-006a22a55603")
+			(uuid "05db70b7-56ff-4eb7-aa0b-5997892e62c3")
 		)
 		(pin "5"
-			(uuid "b5d29e50-331c-4336-8916-ab6f0e262a90")
+			(uuid "9acd9710-0e9b-4312-b3be-d893181bb822")
 		)
 		(pin "8"
-			(uuid "f0369540-bf80-404f-8c73-068f9c03102a")
+			(uuid "52a0a5f7-933b-4abb-94fc-6352b7c1048b")
 		)
 		(pin "8"
-			(uuid "f810fca8-9915-4b9e-ba32-251f1b127094")
+			(uuid "8b58b5c9-aa59-4565-bdf5-b35f8c0dc4bb")
 		)
 		(pin "4"
-			(uuid "751ca764-c682-4a74-bd3c-29f97f26074d")
+			(uuid "7bd497dc-5aea-4c7e-b86e-c9b143d7f733")
 		)
 		(pin "3"
-			(uuid "26d58ced-3171-471d-9155-fa81f431cd04")
+			(uuid "1391956d-08aa-4bbd-8ca7-e87e09a615d5")
 		)
 		(pin "2"
-			(uuid "bbf22268-8b46-4ec8-8e41-a1bfcf080d5c")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "U2")
-					(unit 1)
-				)
-			)
+			(uuid "9c9530dd-75bc-4103-a33e-45bc371a7409")
 		)
 	)
 	(symbol
@@ -2727,22 +2533,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fba76fd3-0056-4200-b427-4afd9d1729a0")
+			(uuid "fb7a3cb4-6f38-410e-9734-1dcbf8c286b1")
 		)
 		(pin "1"
-			(uuid "7997df8a-0d4a-4a76-a031-15f10dbeb0bc")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "R11")
-					(unit 1)
-				)
-			)
+			(uuid "39936201-db44-4ecc-8212-fc366ebf8bde")
 		)
 	)
 	(symbol
@@ -2800,19 +2594,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19646790-5f38-400c-ae7a-50ee1f2fc1aa")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a89e75a5-312a-475f-bab0-e521c612f37c"
-					(reference "#PWR072")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f08367d6-2bc4-4795-b3e0-77caa0381f69"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
+			(uuid "7eda232c-1ea7-4a9d-8ab4-6e021bf228df")
 		)
 	)
 )

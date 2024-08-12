@@ -488,9 +488,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+5V": "POWER"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -625,32 +623,76 @@
       "Root"
     ],
     [
-      "5cdd722d-e098-4a50-a1f9-f3d618f6e29a",
-      "USB"
+      "bafa12be-78fa-401c-b156-dc099ec14ac7",
+      "OD-1"
     ],
     [
       "56663956-0511-4606-ad14-684eb0590c2f",
       "CAN0"
     ],
     [
-      "43277bf7-1fa6-4d8a-a25d-88744f6b0def",
-      "CAN1"
+      "7b096f99-4a70-40b8-aa1d-b1eb78cc1c1f",
+      "OD-2"
     ],
     [
-      "cd241111-78b5-49ad-8924-5ae2daba9419",
-      "RaspberryPi"
+      "7f3c6fa3-6eb2-436c-930b-0d6b85d9620d",
+      "OD-3"
     ],
     [
       "f08367d6-2bc4-4795-b3e0-77caa0381f69",
       "LIN0"
     ],
     [
-      "a89e75a5-312a-475f-bab0-e521c612f37c",
-      "LIN1"
+      "319ac3ca-5c1c-4b17-9f0f-ea7c1c92d5f0",
+      "mcu"
+    ],
+    [
+      "76a18c65-7905-4d1e-9e9d-c16900cb9b92",
+      "rpi"
     ],
     [
       "21a9ada9-ea3e-4ac7-897f-beb15c972456",
-      "Analog"
+      "Analog0"
+    ],
+    [
+      "a850ea5f-9583-4346-8150-90f814d0e558",
+      "sense"
+    ],
+    [
+      "c2945bb1-c0e6-497c-95a8-0f3e9be37e46",
+      "remote-starter"
+    ],
+    [
+      "905e78e2-f390-4904-83aa-4d2324da6a4c",
+      "OD-0"
+    ],
+    [
+      "20166fc0-29e7-449a-99e5-e1727334617c",
+      "relay0"
+    ],
+    [
+      "53b5b35e-c6f3-4d3e-896d-aaaa1f04efcd",
+      "relay1"
+    ],
+    [
+      "7558de80-51e8-4139-b7eb-61e857231d84",
+      "relay2"
+    ],
+    [
+      "75cb56e0-2d9f-43c3-a528-93c6570b61ff",
+      "opto"
+    ],
+    [
+      "e2464274-b581-4e1f-b663-b36b8af96a13",
+      "relay3"
+    ],
+    [
+      "cbf90626-b64e-447e-8c54-15dd26280804",
+      "OD-4"
+    ],
+    [
+      "317a628d-23b3-4170-ba6c-a7631d5d4341",
+      "OD-5"
     ]
   ],
   "text_variables": {}

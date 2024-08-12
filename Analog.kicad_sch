@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "d9c9a4e6-4d9c-4e88-9067-7728010b2a9e")
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(date "mar. 31 mars 2015")
 	)
@@ -773,7 +773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2f30c8-b679-4a90-9209-469a3dbf2e11")
-		(property "Reference" "R1"
+		(property "Reference" "R23"
 			(at 135.89 66.0399 0)
 			(effects
 				(font
@@ -819,18 +819,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3b94392-79bd-475a-ac99-c7cc1c3b85cc")
+			(uuid "a675d928-1eea-4bc7-9b89-6211646c52d7")
 		)
 		(pin "2"
-			(uuid "0a8f946c-3400-454f-81b1-4f75ce74f55a")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "R1")
-					(unit 1)
-				)
-			)
+			(uuid "69dafd61-be0a-4d8d-b72f-f4b1a8c78813")
 		)
 	)
 	(symbol
@@ -843,7 +835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28793609-506c-47b1-ade7-1616c0d4acd5")
-		(property "Reference" "R3"
+		(property "Reference" "R25"
 			(at 146.05 68.58 90)
 			(effects
 				(font
@@ -887,18 +879,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "61e47afc-1e19-400a-9b8f-7b9b0b162002")
+			(uuid "fde0c804-f72d-493d-bcd2-1933db1265a8")
 		)
 		(pin "2"
-			(uuid "f7419d30-ddb6-4e34-b1d7-17413fb35a56")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "R3")
-					(unit 1)
-				)
-			)
+			(uuid "a9f76f65-3448-44db-b566-006476d76b2d")
 		)
 	)
 	(symbol
@@ -911,7 +895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567e65bb-f5d9-489d-96e2-33dd5a06064a")
-		(property "Reference" "C1"
+		(property "Reference" "C31"
 			(at 157.48 81.2799 0)
 			(effects
 				(font
@@ -957,18 +941,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "67a62e00-4e88-4d27-9fca-6ebdf0852c50")
+			(uuid "8635380f-0d8d-4d14-8f83-f1555232136a")
 		)
 		(pin "2"
-			(uuid "d5dfdb85-1b45-46dd-8691-ca3a6fc7f494")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "C1")
-					(unit 1)
-				)
-			)
+			(uuid "f7cf93b6-a159-43e5-a6ac-c8468fb41713")
 		)
 	)
 	(symbol
@@ -981,7 +957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab040ac0-792c-42ef-bf50-6f066413f682")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR071"
 			(at 153.67 95.25 0)
 			(effects
 				(font
@@ -1026,15 +1002,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b93c968f-a392-48f2-b00b-6259c3e48fab")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
+			(uuid "c63f6ea3-e2da-4d14-8688-65e20262a7d9")
 		)
 	)
 	(symbol
@@ -1047,7 +1015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be05c820-3153-48a3-8bdd-10f8e3530da7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR072"
 			(at 153.67 134.62 0)
 			(effects
 				(font
@@ -1092,15 +1060,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d53f751-3ce6-4ca3-a421-58d44d69cdcc")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
+			(uuid "d65f871f-ffb3-4445-81bd-20a479cd5ef9")
 		)
 	)
 	(symbol
@@ -1113,7 +1073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5bf00f-eee6-424e-80e9-097f7e577680")
-		(property "Reference" "R4"
+		(property "Reference" "R26"
 			(at 146.05 107.95 90)
 			(effects
 				(font
@@ -1157,18 +1117,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "38e0f19c-9f9c-475f-b815-84a0239ab0bf")
+			(uuid "fc6b4802-3ccc-443f-8215-43fa8eee9088")
 		)
 		(pin "2"
-			(uuid "b7218ea6-c685-4ee2-a669-3a4c9361d542")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "R4")
-					(unit 1)
-				)
-			)
+			(uuid "eb31fd31-43a7-4485-a1d1-e216a3652e77")
 		)
 	)
 	(symbol
@@ -1181,7 +1133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d839c289-4ee2-4522-93cd-775ce6f19c87")
-		(property "Reference" "C2"
+		(property "Reference" "C32"
 			(at 157.48 120.6499 0)
 			(effects
 				(font
@@ -1227,18 +1179,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "415d5c2f-24f4-4bcd-9593-82d4be470373")
+			(uuid "619aac29-7d90-4f2c-8699-64c6ddb2cb36")
 		)
 		(pin "2"
-			(uuid "625ebcf7-8a72-47c4-93f8-afcea8c9efb0")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "C2")
-					(unit 1)
-				)
-			)
+			(uuid "0b4edf49-5f81-4151-aaa2-d0e98a7e5340")
 		)
 	)
 	(symbol
@@ -1251,7 +1195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9fd9e4c-d046-4d7b-95c7-31754a9b13e8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR070"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -1296,15 +1240,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f72274e-6a46-49e2-8604-58ccc6454f99")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
+			(uuid "e1f233c4-c268-4d28-a79c-f7babab2380c")
 		)
 	)
 	(symbol
@@ -1317,7 +1253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcbeadd2-3f81-4111-a329-a4d87a61f365")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR069"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -1362,15 +1298,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7216dfcd-6cb9-4e7e-a142-26afcb6ecf44")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
+			(uuid "afb4e552-b7b2-473c-bfd5-e22f7bbb9433")
 		)
 	)
 	(symbol
@@ -1383,7 +1311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe0f4d18-38a8-4a3b-bcb3-1d82c9be642c")
-		(property "Reference" "R2"
+		(property "Reference" "R24"
 			(at 135.89 105.4099 0)
 			(effects
 				(font
@@ -1429,18 +1357,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "11c5cfcf-0483-45e8-b0f6-01383928e2e9")
+			(uuid "4aa46749-b9fb-4d32-80e9-c9f7c9360f85")
 		)
 		(pin "2"
-			(uuid "060b3e40-1e4b-479a-8340-c17ca685fd11")
-		)
-		(instances
-			(project "stereo-hub"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21a9ada9-ea3e-4ac7-897f-beb15c972456"
-					(reference "R2")
-					(unit 1)
-				)
-			)
+			(uuid "f0fda510-9200-4142-a940-65eb11933aa2")
 		)
 	)
 )
